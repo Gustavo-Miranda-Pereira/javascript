@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Você é estrangeiro?</title>
+</head>
+<body>
+    <h1>Você é estrangeiro?</h1>
+    Digite o país em que você nasceu: <input type="text" name="pais" id="ipais">
+    <input type="button" value="checar" onclick="checar()">
+    <div id="res"></div>
+    
+    <script>
+        function checar(){
+           var txtpais = document.querySelector('input#ipais')
+           var pais = txtpais.value
+           var res = document.querySelector('div#res')
+           
+           if (pais == 'Brasil' ){
+                res.innerHTML = 'Você é brasileiro'
+           } else {
+            res.innerHTML = 'Você é estrangeiro'
+           }
+        }
+    </script>
+    
+</body>
+</html>
