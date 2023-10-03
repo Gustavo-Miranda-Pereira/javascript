@@ -3,8 +3,9 @@
 
 
 body{
-    background-color: rgb(120, 188, 233);
+    background-color: #78bce9;
 }
+
 
 header, section, footer{
     font-family: Arial, Helvetica, sans-serif;
@@ -27,16 +28,14 @@ section{
 
 section > div#hrdia{
     margin: auto;
-    height: 30%;
-    width: 100%;
     text-align: center;
+    color: black;
+    padding: 20px;
 }
 
 section > div#imagem{
     margin: auto;
-    height: 70%;
-    width: 100%;
-
+    margin-top: 15px;
 }
 
 div#imagem > #ft{
